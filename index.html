@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Memorama</title>
+</head>
+<body>
+    <div class="contenedor-loader">
+        <p>C a r g a n d o . . . </p>
+        <div class="loader"></div>
+    </div>
+    <header>
+        
+            <div class="titulo--header">
+                <p>Juego de Memoria</p>
+            </div>
+            <nav class="nav--header">
+                <ul>
+                    <li>
+                        <a href="">Salir</a>
+                    </li>
+                </ul>
+                
+            </nav>
+    </header>
+
+    <main>
+        <div class="crono">
+            <div class="titulo--crono">
+                <h2>"Laguna de las Ilusiones"</h2>
+            </div>
+            <div class="timer--crono">
+                <p class="crono-tit ">Tiempo restante:</p>
+                <p class="crono-time" id="crono-time"></p>
+            </div>
+        </div>
+        <h3><span id="score">0</span> pares</h3>
+
+        <div class="container">
+            <!-- <img src="assets/img/item1.png" alt="">
+            <img src="assets/img/item2.png" alt="">
+            <img src="assets/img/item3.png" alt="">
+            <img src="assets/img/item4.png" alt="">
+
+            <img src="assets/img/item5.png" alt="">        
+            <img src="assets/img/item6.png" alt="">  -->
+
+        </div>
+    </main>
+
+    <div class="welcome">
+        <div class="card-welcome">
+            <div class="head">
+                ¡Holaa! 
+            </div>
+            <div class="body">
+                <p>Bienvenido al memorama de la laguna</p>
+            </div>
+            <div class="foot">
+                <button class="boton btnStart start" href="">Iniciar juego</button>
+                <a class="btnSalir" href="">Salir</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="finish">
+        <div class="card-finish">
+            <div class="head">
+                ¡FELICITACIONES!
+            </div>
+            <div class="body">
+                <p>Felicidades haz obtenido:</p>
+                <p><span class="scoreF">0</span></p> puntos.</p>
+            </div>
+            <div class="foot">
+                <a class="boton" href="">Jugar de nuevo</a>
+                <a class="btnSalir" href="">Salir</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="finish-bad">
+        <div class="card-finish-bad">
+            <div class="head">
+                ¡Ooops! El tiempo se terminó...
+            </div>
+            <div class="body">
+                <p>Haz obtenido:</p>
+                <p><span class="scoreFB">0</span></p> puntos.</p>
+            </div>
+            <div class="foot">
+                <a class="boton" href="">Volver a intentar</a>
+                <a class="btnSalir" href="">Salir</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+
+    <!-- Conteo de clicks -->
+</body>
+</html>
